@@ -1,0 +1,20 @@
+
+/* CSS for styling the table */
+/* This file contains the styles for the table in index.html */
+table {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* Style for table cells */
+thead {
+    background-color: lightblue;
+
+}
+
+td {
+    border: 1px solid black;
+}
