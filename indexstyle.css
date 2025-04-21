@@ -1,0 +1,16 @@
+/* CSS file for the index.html page */
+/* This file contains the styles for the index.html page */
+
+/* Style for the body of the page */
+body {
+    background-color: rgb(197, 197, 197);
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: blue;
+    border: 1px solid black;
+    text-align: center;
+}
+
