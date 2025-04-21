@@ -4,9 +4,9 @@ table, tr, td, th {
     border: 1px solid black;
     text-align: center;
     padding: 10px;
-    margin: 5px;
+    margin: auto;
     border-collapse: collapse;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(22, 18, 18);
     color: white;
 }
 
