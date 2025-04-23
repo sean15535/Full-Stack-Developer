@@ -43,3 +43,20 @@ a:link {
     width: 32%;;  
     display:inline-block;
   }
+
+  #pid {
+    background-color: azure; 
+    padding: 30px;
+  }
+  div.container {
+    background-color:#FFF4A3;
+    margin:5px;
+  }
+
+  div.container2 {
+    background-color:#FFC0C7;
+  }
+
+  div.container3 {
+    background-color:#D9EEE1;
+  }
