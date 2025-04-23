@@ -15,3 +15,17 @@ td:hover {
     color: black;
     cursor: pointer;
 }
+
+#button {
+    color:blue;
+}
+
+#button1 {
+    color:white;
+}
+#button2 {
+    border-radius: 20px; 
+    background-color: blue; 
+    color:white; 
+    border: 1px solid black;
+}
