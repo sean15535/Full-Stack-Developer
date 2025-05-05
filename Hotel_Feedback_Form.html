@@ -46,6 +46,31 @@
                 <label for="price"> Price </label>
                 <input type="checkbox" id="price" name="price" value="price" />      
             </fieldset>
+
+            <fieldset>
+                <legend>Ratings</legend>
+                <label for="service">How was the service?</label>
+                <select id="service" name="service">
+                    <option value="poor"> Poor</option>
+                    <option value="satisfactory"> Satisfactory</option>
+                    <option value="good"> Good </option>
+                    <option value="very-good"> Very Good</option>
+                    <option value="excellent" selected> Excellent</option>
+                </select>
+
+                <label for="food">How was the food?</label>
+                <select id="food" name="food"> 
+                    <option value="poor"> Poor</option>
+                    <option value="satisfactory"> Satisfactory</option>
+                    <option value="good"> Good </option>
+                    <option value="very-good"> Very Good</option>
+                    <option value="excellent" selected> Excellent</option>
+                </select>
+            </fieldset>
+            
+            <label for="comments">Other Comments?</label>
+            <textarea id="comments" name="comments" rows="10" cols="30" placeholder="Ex. I loved the service!"></textarea>
+             
         </form>
 
     </main>
