@@ -6,77 +6,77 @@
   </head>
   <body>
     <header>
-      <h1>FreeCodeCamp Survey Form</h1>
-      <p>Thank you for taking the time to help us improve the platform</p>
+      <h1 id="title">FreeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
 
     <main>
-      <form action="https://example.com/submit" method="POST">
-          <label for="name">Name</label> 
-          <input type="text" id="name" name="name" placeholder="Enter your name" required /> <br/>
+      <form id="survey-form">
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name" placeholder="Enter your name" required /> <br/>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required /><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required /><br/>
 
-          <label for="age">Age(optional)</label>
-          <input type="number" id="age" name="age" min="10" max="99" required /><br/>
+            <label for="number">Age(optional)</label>
+            <input type="number" id="number" name="age" min="10" max="99" required /><br/>
 
 
-          <p>Which option best describes your current role? </p> 
-          <select id="role" name="role" required>
-            <option value="select-role" disabled selected>Select your role</option>
-            <option value="student">Student</option>
-            <option value="full-time-job">Full Time Job</option>
-            <option value="full-time-learner">Full Time Learner</option>
-            <option value="prefer-not-to-say">Prefer not to say</option>
-            <option value="other">Other</option>
-          </select><br> <br/>
+            <p>Which option best describes your current role? </p> 
+            <select id="role" name="role" required>
+                <option value="select-role" disabled selected>Select your role</option>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full Time Job</option>
+                <option value="full-time-learner">Full Time Learner</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select><br> <br/>
 
-          <p>Would you recommend freeCodeCamp to a friend?</p>
-          <label for="definitely">Definitely </label>
-          <input type="radio" id="definitely" name="recommendation" value="definitely"  selected/>
-          <label for="maybe">Maybe</label>
-          <input type="radio" id="maybe" name="recommendation" value="maybe"  />
-          <label for="maybe">Not sure</label>
-          <input type="radio" id="not-sure" name="recommendation" value="not-sure"  />
-          <br> <br/>
-        
-          <p> Would you recommend freeCodeCamp to a friend?</p>
-          <select id="feature" name="feature" required>
-            <option value="select-an-option" disabled selected>Select an option</option>
-            <option value="challenges">Challenges</option>
-            <option value="projects">Projects</option>
-            <option value="community">Community</option>
-            <option value="open-source">Open Source</option>
-          </select><br> <br/>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for="definitely">Definitely </label>
+            <input type="radio" id="definitely" name="recommendation" value="definitely"  selected/>
+            <label for="maybe">Maybe</label>
+            <input type="radio" id="maybe" name="recommendation" value="maybe"  />
+            <label for="maybe">Not sure</label>
+            <input type="radio" id="not-sure" name="recommendation" value="not-sure"  />
+            <br> <br/>
+            
+            <p> Would you recommend freeCodeCamp to a friend?</p>
+            <select id="feature" name="feature" required>
+                <option value="select-an-option" disabled selected>Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open-source">Open Source</option>
+            </select><br> <br/>
 
-          <p>What would you like to see improved? (Check all that apply)</p>
-          <input type="radio" id="front-end-projects" name="front-end-projects" value="front-end-projects"  />
-          <label for="front-end-projects">Front-end Projects </label>
-          <input type="radio" id="back-end-projects" name="back-end-projects"  value="back-end-projects"  />
-          <label for="back-end-projects">Back-end Projects  </label>
-          <input type="radio" id="data-Visualization" name="data-Visualization"  value="data-Visualization"  />
-          <label for="data-Visualization">Data Visualization </label>
-          <input type="radio" id="challenges" name="challenges"  value="challenges"  />
-          <label for="challenges">Challenges</label>
-          <input type="radio" id="Open-Source-Community" name="Open-Source-Community"  value="Open-Source-Community"  />
-          <label for="Open-Source-Community">Open Source Community</label>
-          <input type="radio" id="Gitter-help-rooms" name="Gitter-help-rooms"  value="Gitter-help-rooms"  />
-          <label for="Gitter-help-rooms">Gitter help rooms </label>
-          <input type="radio" id="Videos" name="Videos"  value="Videos"  />
-          <label for="Videos">Videos</label>
-          <input type="radio" id="City-meetups" name="City-meetups"  value="City-meetups"  />
-          <label for="City-meetups">City Meetups</label>
-          <input type="radio" id="Wiki" name="Wiki"  value="Wiki"  />
-          <label for="Wiki">Wiki</label>
-          <input type="radio" id="Forum" name="Forum"  value="Forum"  />
-          <label for="Forum">Forum</label>
-          <input type="radio" id="Additional-courses" name="Additional-courses"  value="Additional-courses"  />
-          <label for="Additional-courses">Additional Courses</label>
-          <br/>
-        <p>Any comments or suggestions?</p>
-        <textarea id="comments" name="comments" rows="10" cols="30" placeholder="Enter your comments here"></textarea><br/>
-        <button type="submit">Submit Feedback</button>
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="radio" id="front-end-projects" name="front-end-projects" value="front-end-projects"  />
+            <label for="front-end-projects">Front-end Projects</label>
+            <input type="radio" id="back-end-projects" name="back-end-projects"  value="back-end-projects"  />
+            <label for="back-end-projects">Back-end Projects</label>
+            <input type="radio" id="data-Visualization" name="data-Visualization"  value="data-Visualization"  />
+            <label for="data-Visualization">Data Visualization</label>
+            <input type="radio" id="challenges" name="challenges"  value="challenges"  />
+            <label for="challenges">Challenges</label>
+            <input type="radio" id="Open-Source-Community" name="Open-Source-Community"  value="Open-Source-Community"  />
+            <label for="Open-Source-Community">Open Source Community</label>
+            <input type="radio" id="Gitter-help-rooms" name="Gitter-help-rooms"  value="Gitter-help-rooms"  />
+            <label for="Gitter-help-rooms">Gitter help rooms</label>
+            <input type="radio" id="Videos" name="Videos"  value="Videos"  />
+            <label for="Videos">Videos</label>
+            <input type="radio" id="City-meetups" name="City-meetups"  value="City-meetups"  />
+            <label for="City-meetups">City Meetups</label>
+            <input type="radio" id="Wiki" name="Wiki"  value="Wiki"  />
+            <label for="Wiki">Wiki</label>
+            <input type="radio" id="Forum" name="Forum"  value="Forum"  />
+            <label for="Forum">Forum</label>
+            <input type="radio" id="Additional-courses" name="Additional-courses"  value="Additional-courses"  />
+            <label for="Additional-courses">Additional Courses</label>
+            <br/>
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" name="comments" rows="10" cols="30" placeholder="Enter your comments here"></textarea><br/>
+            <button type="submit" id="submit">Submit </button>
         </form>
     </main>
   </body>
