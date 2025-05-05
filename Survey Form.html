@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>FreeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <main>
+      <form action="https://example.com/submit" method="POST">
+          <label for="name">Name</label> 
+          <input type="text" id="name" name="name" placeholder="Enter your name" required /> <br/>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required /><br/>
+
+          <label for="age">Age(optional)</label>
+          <input type="number" id="age" name="age" min="10" max="99" required /><br/>
+
+
+          <p>Which option best describes your current role? </p> 
+          <select id="role" name="role" required>
+            <option value="select-role" disabled selected>Select your role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select><br> <br/>
+
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label for="definitely">Definitely </label>
+          <input type="radio" id="definitely" name="recommendation" value="definitely" required selected/>
+          <label for="maybe">Maybe</label>
+          <input type="radio" id="maybe" name="recommendation" value="maybe" required />
+          <label for="maybe">Not sure</label>
+          <input type="radio" id="not-sure" name="recommendation" value="not-sure" required />
+          <br> <br/>
+        
+          <p> Would you recommend freeCodeCamp to a friend?</p>
+          <select id="feature" name="feature" required>
+            <option value="select-an-option" disabled selected>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+          </select><br> <br/>
+
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <input type="radio" id="definitely" name="recommendation" value="definitely" required />
+          <label for="definitely">Definitely </label>
+          <label for="maybe">Maybe</label>
+          <input type="radio" id="maybe" name="recommendation" value="maybe" required />
+          <label for="maybe">Not sure</label>
+          <input type="radio" id="not-sure" name="recommendation" value="not-sure" required /><br/>
+          
+        <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
