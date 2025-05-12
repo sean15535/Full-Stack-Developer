@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Number Chart 1-50 (Figures & Words)</title>
+  <title>Number Chart 1-50 (Figure + Word)</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,12 +16,10 @@
     }
 
     .chart {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 100px;
-      gap: 15px;
-      justify-items: center;
-      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
       margin-top: 20px;
     }
 
@@ -53,7 +51,7 @@
       margin-top: 4px;
     }
 
-    /* Colorful variations */
+    /* Color variations */
     .number-box:nth-child(odd) {
       background-color: #ff6b6b;
     }
@@ -80,7 +78,7 @@
 
   <h1>Number Chart: 1 to 50 (Figures & Words)</h1>
   <div class="chart">
-    <!-- Number boxes 1 to 50 -->
+    <!-- Repeating numbers from 1 to 50 with words -->
     <div class="number-box"><div class="figure">1</div><div class="word">One</div></div>
     <div class="number-box"><div class="figure">2</div><div class="word">Two</div></div>
     <div class="number-box"><div class="figure">3</div><div class="word">Three</div></div>
