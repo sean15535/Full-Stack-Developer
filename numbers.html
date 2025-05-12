@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Number Chart 1-50 (in Words)</title>
+  <title>Number Chart 1-50 (Figure + Word)</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,17 +18,18 @@
     .chart {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       justify-content: center;
       margin-top: 20px;
     }
 
     .number-box {
-      width: 120px;
-      height: 60px;
+      width: 130px;
+      height: 80px;
       background-color: #ccc;
       color: white;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       font-weight: bold;
@@ -41,7 +42,16 @@
       transform: scale(1.05);
     }
 
-    /* Assigning different background colors using nth-child */
+    .figure {
+      font-size: 24px;
+    }
+
+    .word {
+      font-size: 16px;
+      margin-top: 4px;
+    }
+
+    /* Color variations */
     .number-box:nth-child(odd) {
       background-color: #ff6b6b;
     }
@@ -66,59 +76,59 @@
 </head>
 <body>
 
-  <h1>Number Chart: 1 to 50 (in Words)</h1>
+  <h1>Number Chart: 1 to 50 (Figures & Words)</h1>
   <div class="chart">
-    <!-- Number words from 1 to 50 -->
-    <div class="number-box">One</div>
-    <div class="number-box">Two</div>
-    <div class="number-box">Three</div>
-    <div class="number-box">Four</div>
-    <div class="number-box">Five</div>
-    <div class="number-box">Six</div>
-    <div class="number-box">Seven</div>
-    <div class="number-box">Eight</div>
-    <div class="number-box">Nine</div>
-    <div class="number-box">Ten</div>
-    <div class="number-box">Eleven</div>
-    <div class="number-box">Twelve</div>
-    <div class="number-box">Thirteen</div>
-    <div class="number-box">Fourteen</div>
-    <div class="number-box">Fifteen</div>
-    <div class="number-box">Sixteen</div>
-    <div class="number-box">Seventeen</div>
-    <div class="number-box">Eighteen</div>
-    <div class="number-box">Nineteen</div>
-    <div class="number-box">Twenty</div>
-    <div class="number-box">Twenty-One</div>
-    <div class="number-box">Twenty-Two</div>
-    <div class="number-box">Twenty-Three</div>
-    <div class="number-box">Twenty-Four</div>
-    <div class="number-box">Twenty-Five</div>
-    <div class="number-box">Twenty-Six</div>
-    <div class="number-box">Twenty-Seven</div>
-    <div class="number-box">Twenty-Eight</div>
-    <div class="number-box">Twenty-Nine</div>
-    <div class="number-box">Thirty</div>
-    <div class="number-box">Thirty-One</div>
-    <div class="number-box">Thirty-Two</div>
-    <div class="number-box">Thirty-Three</div>
-    <div class="number-box">Thirty-Four</div>
-    <div class="number-box">Thirty-Five</div>
-    <div class="number-box">Thirty-Six</div>
-    <div class="number-box">Thirty-Seven</div>
-    <div class="number-box">Thirty-Eight</div>
-    <div class="number-box">Thirty-Nine</div>
-    <div class="number-box">Forty</div>
-    <div class="number-box">Forty-One</div>
-    <div class="number-box">Forty-Two</div>
-    <div class="number-box">Forty-Three</div>
-    <div class="number-box">Forty-Four</div>
-    <div class="number-box">Forty-Five</div>
-    <div class="number-box">Forty-Six</div>
-    <div class="number-box">Forty-Seven</div>
-    <div class="number-box">Forty-Eight</div>
-    <div class="number-box">Forty-Nine</div>
-    <div class="number-box">Fifty</div>
+    <!-- Repeating numbers from 1 to 50 with words -->
+    <div class="number-box"><div class="figure">1</div><div class="word">One</div></div>
+    <div class="number-box"><div class="figure">2</div><div class="word">Two</div></div>
+    <div class="number-box"><div class="figure">3</div><div class="word">Three</div></div>
+    <div class="number-box"><div class="figure">4</div><div class="word">Four</div></div>
+    <div class="number-box"><div class="figure">5</div><div class="word">Five</div></div>
+    <div class="number-box"><div class="figure">6</div><div class="word">Six</div></div>
+    <div class="number-box"><div class="figure">7</div><div class="word">Seven</div></div>
+    <div class="number-box"><div class="figure">8</div><div class="word">Eight</div></div>
+    <div class="number-box"><div class="figure">9</div><div class="word">Nine</div></div>
+    <div class="number-box"><div class="figure">10</div><div class="word">Ten</div></div>
+    <div class="number-box"><div class="figure">11</div><div class="word">Eleven</div></div>
+    <div class="number-box"><div class="figure">12</div><div class="word">Twelve</div></div>
+    <div class="number-box"><div class="figure">13</div><div class="word">Thirteen</div></div>
+    <div class="number-box"><div class="figure">14</div><div class="word">Fourteen</div></div>
+    <div class="number-box"><div class="figure">15</div><div class="word">Fifteen</div></div>
+    <div class="number-box"><div class="figure">16</div><div class="word">Sixteen</div></div>
+    <div class="number-box"><div class="figure">17</div><div class="word">Seventeen</div></div>
+    <div class="number-box"><div class="figure">18</div><div class="word">Eighteen</div></div>
+    <div class="number-box"><div class="figure">19</div><div class="word">Nineteen</div></div>
+    <div class="number-box"><div class="figure">20</div><div class="word">Twenty</div></div>
+    <div class="number-box"><div class="figure">21</div><div class="word">Twenty-One</div></div>
+    <div class="number-box"><div class="figure">22</div><div class="word">Twenty-Two</div></div>
+    <div class="number-box"><div class="figure">23</div><div class="word">Twenty-Three</div></div>
+    <div class="number-box"><div class="figure">24</div><div class="word">Twenty-Four</div></div>
+    <div class="number-box"><div class="figure">25</div><div class="word">Twenty-Five</div></div>
+    <div class="number-box"><div class="figure">26</div><div class="word">Twenty-Six</div></div>
+    <div class="number-box"><div class="figure">27</div><div class="word">Twenty-Seven</div></div>
+    <div class="number-box"><div class="figure">28</div><div class="word">Twenty-Eight</div></div>
+    <div class="number-box"><div class="figure">29</div><div class="word">Twenty-Nine</div></div>
+    <div class="number-box"><div class="figure">30</div><div class="word">Thirty</div></div>
+    <div class="number-box"><div class="figure">31</div><div class="word">Thirty-One</div></div>
+    <div class="number-box"><div class="figure">32</div><div class="word">Thirty-Two</div></div>
+    <div class="number-box"><div class="figure">33</div><div class="word">Thirty-Three</div></div>
+    <div class="number-box"><div class="figure">34</div><div class="word">Thirty-Four</div></div>
+    <div class="number-box"><div class="figure">35</div><div class="word">Thirty-Five</div></div>
+    <div class="number-box"><div class="figure">36</div><div class="word">Thirty-Six</div></div>
+    <div class="number-box"><div class="figure">37</div><div class="word">Thirty-Seven</div></div>
+    <div class="number-box"><div class="figure">38</div><div class="word">Thirty-Eight</div></div>
+    <div class="number-box"><div class="figure">39</div><div class="word">Thirty-Nine</div></div>
+    <div class="number-box"><div class="figure">40</div><div class="word">Forty</div></div>
+    <div class="number-box"><div class="figure">41</div><div class="word">Forty-One</div></div>
+    <div class="number-box"><div class="figure">42</div><div class="word">Forty-Two</div></div>
+    <div class="number-box"><div class="figure">43</div><div class="word">Forty-Three</div></div>
+    <div class="number-box"><div class="figure">44</div><div class="word">Forty-Four</div></div>
+    <div class="number-box"><div class="figure">45</div><div class="word">Forty-Five</div></div>
+    <div class="number-box"><div class="figure">46</div><div class="word">Forty-Six</div></div>
+    <div class="number-box"><div class="figure">47</div><div class="word">Forty-Seven</div></div>
+    <div class="number-box"><div class="figure">48</div><div class="word">Forty-Eight</div></div>
+    <div class="number-box"><div class="figure">49</div><div class="word">Forty-Nine</div></div>
+    <div class="number-box"><div class="figure">50</div><div class="word">Fifty</div></div>
   </div>
 
 </body>
