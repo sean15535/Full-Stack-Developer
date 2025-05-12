@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Chart 1-50 (in Words)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .chart {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .number-box {
+      width: 120px;
+      height: 60px;
+      background-color: #ccc;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .number-box:hover {
+      transform: scale(1.05);
+    }
+
+    /* Assigning different background colors using nth-child */
+    .number-box:nth-child(odd) {
+      background-color: #ff6b6b;
+    }
+
+    .number-box:nth-child(even) {
+      background-color: #1dd1a1;
+    }
+
+    .number-box:nth-child(3n) {
+      background-color: #54a0ff;
+    }
+
+    .number-box:nth-child(5n) {
+      background-color: #f368e0;
+    }
+
+    .number-box:nth-child(7n) {
+      background-color: #feca57;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Number Chart: 1 to 50 (in Words)</h1>
+  <div class="chart">
+    <!-- Number words from 1 to 50 -->
+    <div class="number-box">One</div>
+    <div class="number-box">Two</div>
+    <div class="number-box">Three</div>
+    <div class="number-box">Four</div>
+    <div class="number-box">Five</div>
+    <div class="number-box">Six</div>
+    <div class="number-box">Seven</div>
+    <div class="number-box">Eight</div>
+    <div class="number-box">Nine</div>
+    <div class="number-box">Ten</div>
+    <div class="number-box">Eleven</div>
+    <div class="number-box">Twelve</div>
+    <div class="number-box">Thirteen</div>
+    <div class="number-box">Fourteen</div>
+    <div class="number-box">Fifteen</div>
+    <div class="number-box">Sixteen</div>
+    <div class="number-box">Seventeen</div>
+    <div class="number-box">Eighteen</div>
+    <div class="number-box">Nineteen</div>
+    <div class="number-box">Twenty</div>
+    <div class="number-box">Twenty-One</div>
+    <div class="number-box">Twenty-Two</div>
+    <div class="number-box">Twenty-Three</div>
+    <div class="number-box">Twenty-Four</div>
+    <div class="number-box">Twenty-Five</div>
+    <div class="number-box">Twenty-Six</div>
+    <div class="number-box">Twenty-Seven</div>
+    <div class="number-box">Twenty-Eight</div>
+    <div class="number-box">Twenty-Nine</div>
+    <div class="number-box">Thirty</div>
+    <div class="number-box">Thirty-One</div>
+    <div class="number-box">Thirty-Two</div>
+    <div class="number-box">Thirty-Three</div>
+    <div class="number-box">Thirty-Four</div>
+    <div class="number-box">Thirty-Five</div>
+    <div class="number-box">Thirty-Six</div>
+    <div class="number-box">Thirty-Seven</div>
+    <div class="number-box">Thirty-Eight</div>
+    <div class="number-box">Thirty-Nine</div>
+    <div class="number-box">Forty</div>
+    <div class="number-box">Forty-One</div>
+    <div class="number-box">Forty-Two</div>
+    <div class="number-box">Forty-Three</div>
+    <div class="number-box">Forty-Four</div>
+    <div class="number-box">Forty-Five</div>
+    <div class="number-box">Forty-Six</div>
+    <div class="number-box">Forty-Seven</div>
+    <div class="number-box">Forty-Eight</div>
+    <div class="number-box">Forty-Nine</div>
+    <div class="number-box">Fifty</div>
+  </div>
+
+</body>
+</html>
