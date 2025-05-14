@@ -43,12 +43,21 @@
                 padding: 20px;
             }
             /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-            @media (max-width: 600px) {
-                nav, article {
-                width: 100%;
-                height: auto;
-                }
-                }
+         /* Your existing styles ... */
+
+        @media (max-width: 600px) {
+        main {
+        flex-direction: column;
+        }
+        section, article {
+        width: 100%;
+        }
+        }
+        /* Add a hover effect to the links */
+        nav ul li a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
         </style>
     </head>
 <body>
@@ -72,5 +81,6 @@
 </main>
 <footer>
     <p>Footer</p>
+</footer>
 </body>    
 </html>
