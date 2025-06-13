@@ -1,39 +1,55 @@
-<button aria-label="Search">
-  <i class="fas fa-search"></i>
-</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Accessible Web Components</h1>
+    <p>Accessible web components are essential for ensuring that all users, including those with disabilities, can interact with and benefit from web content. These components are designed to be usable with assistive technologies like screen readers, keyboard navigation, and other accessibility tools.</p>
+    <button aria-label="Search">
+    <i class="fas fa-search"></i>
+    </button>
 
-<input type="text" aria-labelledby="search-btn">
-<button type="button" id="search-btn">Search</button>
+    <input type="text" aria-labelledby="search-btn">
+    <button type="button" id="search-btn">Search</button>
 
-<div>
-  <span id="volume-label">Volume</span>
-  <span id="volume-details">Adjust the volume level</span>
-  <input
-    type="range"
-    min="0"
-    max="100"
-    value="30"
-    aria-labelledby="volume-label volume-details">
-</div>
+    <div>
+    <span id="volume-label">Volume</span>
+    <span id="volume-details">Adjust the volume level</span>
+    <input
+        type="range"
+        min="0"
+        max="100"
+        value="30"
+        aria-labelledby="volume-label volume-details">
+    </div>
 
-<button>
-  <i class="fa-solid fa-gear" aria-hidden="true"></i>
-  <span class="label">Settings</span>
-</button>
+    <button>
+    <i class="fa-solid fa-gear" aria-hidden="true"></i>
+    <span class="label">Settings</span>
+    </button>
 
-<button aria-expanded="true">Menu</button>
+    <button aria-expanded="true">Menu</button>
 
-<button aria-expanded="false">Menu</button>
+    <button aria-expanded="false">Menu</button>
 
-<button aria-owns="menu1" aria-expanded="true">Menu</button>
-<main>
-  <!-- an entire page worth of content --->
-</main>
-<ul id="menu1">
-  <li>...</li>
-  <li>...</li>
-</ul>
+    <button aria-owns="menu1" aria-expanded="true">Menu</button>
+    <main>
+    <!-- an entire page worth of content --->
+    </main>
+    <ul id="menu1">
+    <li>...</li>
+    <li>...</li>
+    </ul>
 
-<div aria-live="assertive">
-  <p>Your session will expire in 30 seconds.</p>
-</div>
+    <div aria-live="assertive">
+    <p>Your session will expire in 30 seconds.</p>
+    </div>
+
+</body>
+</html>
+<!-- 
+ -->
