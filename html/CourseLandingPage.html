@@ -9,15 +9,16 @@
     <header>
         <h1>Welcome to the Course Landing Page</h1>
         <p>Your journey to learning starts here!</p>
+        <nav> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav> 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+
     <main>  
         <section id="courses">
             <h2>Our Courses</h2>    
@@ -25,7 +26,8 @@
                 <h3>Web Development</h3>
                 <p>Learn HTML, CSS, JavaScript, and more to build stunning websites.</p>
                 <p> Duration: <strong> 6 Months </strong></p>
-                <video source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" controls width="891" height="275" type="video/mp4"></video>
+                <video  controls width="891" height="275" ></video>
+                    <source src="https://cdn.freecodecamp.org/curriculum/html-css/intro-to-html-video.mp4" type="video/mp4">
             </article>
             <article class="course">
                 <h3>Data Science</h3>
@@ -45,7 +47,7 @@
 
         <section id="schedule">
             <h2>Weekly Schedule</h2>
-            <table border="1" width="100%">
+            <table>
                 <tr>
                     <th>Day</th>
                     <th>Course</th>
