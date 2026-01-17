@@ -87,9 +87,17 @@
                 <input type="text" id="name" name="name" required><br>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br>
+                <select name="course" id="course" required>
+                    <option value="">Select a course</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="data">Data Science</option>
+                    <option value="mobile">Mobile Development</option>
+                    <option value="backend">Backend</option>
+                </select>
+                <br/>
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-                <input type="submit" value="Submit">
+                <button type="submit" value="Submit" >Submit</button>
             </form>
 
         </section>
