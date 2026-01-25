@@ -10,3 +10,9 @@ table, tr, td, th {
     background-color: green;
     color: white;
 }
+th {
+    background-color: darkgreen;
+}   
+td {
+    background-color: forestgreen;
+}
